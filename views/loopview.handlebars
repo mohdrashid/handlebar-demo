@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>{{title}}</title>
+</head>
+<body>
+  <h2>Arrays</h2>
+  {{#with array as |number|}}
+  {{number}}
+  {{/with}}
+
+  <h2>Nested Structures</h2>
+  <ul>
+  {{#each tutorials}}
+    <li>{{language}},{{tutor}}</li>
+    {{/each}}
+  </ul>
+
+</body>
+</html>

@@ -9,13 +9,13 @@ node bin/www
 
 <a name="routes"></a>
 ## Available Routes
-http://serverAddress:3000/ : Index Page
-http://serverAddress:3000/count : Increments count based on visits
-http://serverAddress:3000/loop : A simple loop example using handlebars
-http://serverAddress:3000/condition : Handlebars condition examples
-http://serverAddress:3000/js : Handlebars assign value to javascript Variable
-
-Routes are in routes/index.js
+http://serverAddress:3000/ : Index Pag<br>
+http://serverAddress:3000/count : Increments count based on visits<br>
+http://serverAddress:3000/loop : A simple loop example using handlebars<br>
+http://serverAddress:3000/condition : Handlebars condition examples<br>
+http://serverAddress:3000/js : Handlebars assign value to javascript Variable<br>
+<br><br>
+Routes are in routes/index.js<br>
 Associated views can be found in views folder
 
 
